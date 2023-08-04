@@ -1,0 +1,108 @@
+body {
+  background-color: rgb(169, 229, 239);
+}
+.main {
+  border: solid rgb(125, 186, 250) 2px;
+  background-color: rgb(250, 243, 243);
+  border-radius: 0.2cm;
+  height: 70vh;
+  width: 50vh;
+  position: absolute;
+  top: 15%;
+  left: 38%;
+  overflow-y: auto;
+  box-shadow: 7px 7px 15px -5px rgba(0, 0, 0, 1);
+}
+h1 {
+  color: whitesmoke;
+  font-size: 200%;
+  font-display: flex;
+  background-color: rgb(125, 186, 250);
+  height: 5vh;
+  width: 50vh;
+  text-align: center;
+  font-family: "Audiowide", sans-serif;
+}
+
+input {
+  text-align: center;
+  height: 30px;
+  top: 10px;
+  border: none;
+  background: transparent;
+  font-size: 20px;
+  font-weight: 500;
+  width: 60%;
+  border-bottom: 2px solid rgb(125, 186, 250);
+  outline: none;
+  margin-left: 30px;
+  font-family: "Audiowide", sans-serif;
+}
+
+button {
+  min-height: 40px;
+  width: 40px;
+  border-radius: 40%;
+  background-color: rgb(125, 186, 250);
+  border-color: transparent;
+  color: aliceblue;
+  font-size: 40px;
+  border: none;
+  outline: none;
+  margin-left: 25px;
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 1);
+}
+
+button:hover {
+  background-color: rgb(75, 191, 152);
+}
+
+ol {
+  margin-top: 30px;
+}
+
+ol li {
+  padding-left: 0px;
+  text-align: left;
+  font-size: 20px;
+  font-weight: 500;
+  min-height: 40px;
+  display: flex;
+  align-items: center;
+  color: #8566aa;
+  text-transform: capitalize;
+  font-family: "Audiowide", sans-serif;
+}
+
+.todo_style {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: left;
+}
+.todo_style .fa-times {
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(103, 67, 196);
+  border-radius: 50%;
+  margin: 8px 7px 0 0;
+  color: aliceblue;
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.1);
+}
+.todo_style .fa-times:hover {
+  background-color: crimson;
+}
+
+.todo_style .fa-times:hover .list_style {
+  color: red;
+}
+
+/* @media only screen and (min-width: 481px) and (max-width: 768px) {
+  .main,h1, input, button, ol, ol li,.todo_style,.todo_style .fa-times  {
+    width: 50%;
+    height: 320px;
+  }
+ } */
