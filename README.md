@@ -18,7 +18,7 @@ Welcome to my React Todo List project! This project showcases various concepts o
 To begin with the project, follow these steps:
 
 1. Clone the repository: `git clone https://github.com/harshgurjar1908/Todo_List.git`
-2. Go to the project directory: `cd react-todo-list`
+2. Go to the project directory: `cd Todo_List`
 3. Install the required dependencies: `npm install`
 4. Start the development server: `npm start`
 
